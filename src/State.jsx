@@ -48,14 +48,14 @@ export default class State extends React.Component {
   addCallbacks(name, event, { onBefore, onEnter, onLeave, onAfter, onEvent, onState}) {
     const { callbacks } = this.context;
     if(name) {
-      if(onEnter) { context[`onenter${name}`] = onEnter }
-      if(onLeave) { context[`onleave${name}`] = onLeave }
-      if(onEvent) { context[`onevent${name}`] = onEvent }
-      if(onState) { context[`onstate${name}`] = onState }
+      if(onEnter) { callbacks[`onenter${name}`] = onEnter }
+      if(onLeave) { callbacks[`onleave${name}`] = onLeave }
+      if(onEvent) { callbacks[`onevent${name}`] = onEvent }
+      if(onState) { callbacks[`onstate${name}`] = onState }
     }
     if(event) {
-      if(onBefore) { context[`onbefore${event}`] = onBefore }
-      if(onAfter) { context[`onafter${event}`] = onAfter }
+      if(onBefore) { callbacks[`onbefore${event}`] = onBefore }
+      if(onAfter) { callbacks[`onafter${event}`] = onAfter }
     }
     return this;
   }
