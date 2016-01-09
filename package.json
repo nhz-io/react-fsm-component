@@ -1,13 +1,13 @@
 {
   "name": "react-fsm-component",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "React Finite State Machine Component",
   "author": {
     "name": "Ishi Ruy",
     "email": "dev@nhz.io",
     "url": "https://github.com/nhz-io"
   },
-  "main": "dist/react-fsm-comonent.js",
+  "main": "dist/react-fsm-component.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server",
