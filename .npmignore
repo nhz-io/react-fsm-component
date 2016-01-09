@@ -1,0 +1,10 @@
+node_modules
+.gitignore
+.npmignore
+.travis.yml
+*.log
+build
+dist
+test
+dev
+webpack.config.babel.js
