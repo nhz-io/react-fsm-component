@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 const { PropTypes } = React;
 
 export default class State extends React.Component {

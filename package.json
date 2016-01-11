@@ -1,17 +1,40 @@
 {
   "name": "react-fsm-component",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "React Finite State Machine Component",
-  "author": {
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nhz-io/react-fsm-component.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nhz-io/react-fsm-component/issues"
+  },
+  "homepage": "https://github.com/nhz-io/react-fsm-component",
+  "author": "Ishi Ruy <dev@nhz.io>",
+  "contributors": [{
     "name": "Ishi Ruy",
     "email": "dev@nhz.io",
     "url": "https://github.com/nhz-io"
-  },
+  }],
+  "keywords": [
+    "nhz-io",
+    "nhz.io",
+    "react",
+    "component",
+    "fsm",
+    "finite-state-machine",
+    "state-machine",
+    "javascript-state-machine",
+    "react-fsm-component",
+    "webpack",
+    "babel",
+    "es6"
+  ],
   "main": "dist/react-fsm-component.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server",
-    "dist": "webpack"
+    "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "dist": "node node_modules/webpack/bin/webpack.js"
   },
   "babel": {
     "presets": [
