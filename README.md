@@ -7,11 +7,6 @@
 npm install --save react-fsm-component
 ```
 
-## Usage
-
-```javascript
-```
-
 ## Build
 ```
 git clone https://github.com/nhz-io/react-fsm-component.git
@@ -29,7 +24,7 @@ npm dist
 ### [MIT](LICENSE)
 
 ## VERSION
-### 0.0.4
+### 0.0.5
 
 [travis-image]: https://travis-ci.org/nhz-io/react-fsm-component.svg
 [travis-url]: https://travis-ci.org/nhz-io/react-fsm-component
