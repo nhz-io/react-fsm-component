@@ -24,7 +24,8 @@ npm dist
 ### [MIT](LICENSE)
 
 ## [VERSION](HISTORY.md)
-### 0.0.5
+
+### 0.0.6
 
 [travis-image]: https://travis-ci.org/nhz-io/react-fsm-component.svg
 [travis-url]: https://travis-ci.org/nhz-io/react-fsm-component

@@ -1,10 +1,18 @@
 language: node_js
 node_js:
-- "0.11"
-- "0.12"
-- "iojs"
-- "4.2"
-- "5.1"
-matrix:
+- '0.11'
+- '0.12'
+- iojs
+- '4.2'
+- '5.1'
+matrix: 
 fast_finish: true
-script: "npm run-script dist"
+script: npm run-script dist
+deploy:
+  provider: npm
+  email: dev@nhz.io
+  api_key:
+    secure: wdFiI6xtvaAl0BKNLveUgjwPe5Am2/zULHvzR65UU1d4tBN0FsogzF14bmgNvvdN2+sYGLPmT7Xy9SP9P4+t1nV2BzuGiSJHmLhD/2MMNOfpgNcNwuqyBVnzu3RTqKDiWBOkMwlBVydi/wdyGkmpQ9oneS8ArmXgeAfBJOKVI4maWBSeWZJwGvQWbtXSji5Jau1ArSsEe2yLDwBMaDzb7D+yXfUuVhCQORGj/N4Kz9LKzcPPSvXkfur1o4EDRDNJGNeZdWg+nuvCxV3qvE2hwzg13YZFMZdIrkjvwwVrqoL+AOU7uDpTNVhpQ8D2gZJvmHOH2ktQfYPDxzhbMHf7vgLlRhqSOjFFHgnlWsS1wzX3crqtqcBtpunM+y7feE0bBXwGo8RHQuT6/7KlPTMzdCrTwuRNAdaqyglQYW3OQixMnsv03RzqR0r7yJ9rbrlaKchCWN+wPCS6JqyXukn7XDukiz5UMD0pR601Wv4ZntAUTILfhungjc6j40cKWIilgzjn1Eq4UVxlO8tLaOgpVKqRZ5onC/l/af1msm4bJSTyIULATALurJGtVD0QG/gwdHEwBKwTNwN5GVr2p3Qt9Fq6rQ/+xmxz2soPhXFYXYDK998Nn3CbFKnsCtZOCKbTw5q+/wGM8RF/Mk/L7iVSC+68KIGnZ8yqiftHFzr9TUk=
+  on:
+    tags: true
+    repo: nhz-io/react-fsm-component

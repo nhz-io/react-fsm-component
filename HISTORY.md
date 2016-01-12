@@ -1,4 +1,7 @@
 # History
+## 0.0.6
+* added travis npm autodeployment config
+
 ## 0.0.5
 * Updated webpack config
 * Prettier package.json
