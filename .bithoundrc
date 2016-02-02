@@ -1,0 +1,23 @@
+{
+  "ignore": [
+    "**/node_modules/**",
+    "**/build/**",
+    "**/dist/**",
+    "**/vendor/**",
+    "**/**-min-**",
+    "**/**-min.**",
+    "**/**.min.**",
+    "/dist/**",
+    "dist/**"
+  ],
+  "test": [
+    "**/__tests__/**",
+    "**/__mocks__/**"
+  ],
+  "dependencies": {
+    "unused-ignores": []
+  },
+  "critics": {
+    "lint": {"engine": "eslint"}
+  }
+}
